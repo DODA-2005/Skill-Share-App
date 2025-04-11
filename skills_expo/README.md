@@ -2,7 +2,7 @@
 <img
 		width="250"
 		alt="Skill Share - Expo"
-		src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/tinder-clone-logo.gif">
+		src="https://cdn.discordapp.com/attachments/897084050941038655/1360255701766901840/Screenshot_2025-04-11_at_7.39.48_PM.png?ex=67fa7457&is=67f922d7&hm=d0b94d78051dc318beb2a32f2f6b58e4dae61d9bf55eb8134eaa979cc0041613&">
 </h1>
 <h3 align="center">
 	Tinder Clone - Expo
