@@ -1,7 +1,7 @@
 <h1 align="center">
 <img
 		width="250"
-		alt="Tinder Clone - Expo"
+		alt="Skill Share - Expo"
 		src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/tinder-clone-logo.gif">
 </h1>
 <h3 align="center">
