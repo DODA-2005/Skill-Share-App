@@ -30,7 +30,7 @@ You can try it here : (under development)
 <img
 width="205"
 alt="Capture 1"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-1.png">
+src="https://github.com/stevenpersia//blob/master/preview/capture-1.png">
 <img
 width="205"
 alt="Capture 2"
@@ -56,7 +56,7 @@ This project works fine on iOS and Android.
 Clone this repository :
 
 ```
-git clone https://github.com/stevenpersia/tinder-expo.git](https://github.com/DODA-2005/Skill-Share-App.git
+git clone https://github.com/DODA-2005/Skill-Share-App.git
 cd tinder-expo
 ```
 
