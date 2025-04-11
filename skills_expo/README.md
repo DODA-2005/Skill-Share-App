@@ -15,8 +15,6 @@
 
 ## Overview
 
-⚠️ **This project use code of my previous repository [Tinder - React Native](https://github.com/stevenpersia/tinder-react-native). Because I don't have time to maintain this previous project made on React Native, I've decided to switch to Expo because it's more convenient to me. Sorry if you don't work with Expo (but give it a try).**
-
 **Perfect to start an Tinder Clone app.** 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
 
 - **Easy to use** 🤘
@@ -109,9 +107,7 @@ yarn start
 | `matches`  | string | Yes      | Match percentage.           | `matches="95"`                             |
 | `age`      | string | No       | Age of member.              | `age="25"`                                 |
 | `location` | string | No       | Location of member.         | `location="Paris, France"`                 |
-| `info1`    | string | No       | More information of member. | `info1="Straight, Single"`                 |
 | `info2`    | string | No       | More information of member. | `info2="Tea Totaller & Loves Photography"` |
-| `info3`    | string | No       | More information of member. | `info3="Beaches, Mountain & Coffee"`       |
 | `info4`    | string | No       | More information of member. | `info4="Last seen: 23h ago"`               |
 
 
