@@ -23,14 +23,15 @@ export type MessageT = {
 
 export type ProfileItemT = {
   age?: string;
-  info1?: string;
-  info2?: string;
-  info3?: string;
-  info4?: string;
-  location?: string;
+  info1?: string;  // Can Teach
+  info2?: string;  // Wants to Learn
+  info3?: string;  // Availability
+  info4?: string;  // Last Seen
+  info5?: string;  // Location
   matches: string;
   name: string;
 };
+
 
 export type TabBarIconT = {
   focused: boolean;

@@ -2,6 +2,7 @@ import React from "react";
 import { Text, View, Image, Dimensions, TouchableOpacity } from "react-native";
 import Icon from "./Icon";
 import { CardItemT } from "../types";
+import { FontAwesome5 } from '@expo/vector-icons';
 import styles, {
   DISLIKE_ACTIONS,
   FLASH_ACTIONS,
@@ -11,13 +12,13 @@ import styles, {
 } from "../assets/styles";
 
 const CardItem = ({
-  description,
-  hasActions,
-  hasVariant,
+  description = "No description available",
+  hasActions = false,
+  hasVariant = false,
   image,
-  isOnline,
+  isOnline = false,
   matches,
-  name,
+  name = "John Doe",
 }: CardItemT) => {
   // Custom styling
   const fullWidth = Dimensions.get("window").width;
@@ -49,7 +50,7 @@ const CardItem = ({
       {matches && (
         <View style={styles.matchesCardItem}>
           <Text style={styles.matchesTextCardItem}>
-            <Icon name="heart" color={WHITE} size={13} /> {matches}% Match!
+            <FontAwesome5 name="guitar" color={WHITE} size={13} /> {matches}% Match!
           </Text>
         </View>
       )}
@@ -80,7 +81,7 @@ const CardItem = ({
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.button}>
-            <Icon name="heart" color={LIKE_ACTIONS} size={25} />
+            <FontAwesome5 name="guitar" size={25} color={LIKE_ACTIONS} />
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.button}>

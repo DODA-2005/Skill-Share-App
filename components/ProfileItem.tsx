@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import Icon from "./Icon";
 import { ProfileItemT } from "../types";
 import styles, { DARK_GRAY, WHITE } from "../assets/styles";
+import { FontAwesome5 } from '@expo/vector-icons';
 
 const ProfileItem = ({
   age,
@@ -17,7 +18,7 @@ const ProfileItem = ({
   <View style={styles.containerProfileItem}>
     <View style={styles.matchesProfileItem}>
       <Text style={styles.matchesTextProfileItem}>
-        <Icon name="heart" size={13} color={WHITE} /> {matches}% Match!
+        <FontAwesome5 name="guitar" color={WHITE} size={13} />  {matches}% Match!
       </Text>
     </View>
 
