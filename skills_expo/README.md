@@ -5,7 +5,7 @@
 		src="https://cdn.discordapp.com/attachments/897084050941038655/1360255701766901840/Screenshot_2025-04-11_at_7.39.48_PM.png?ex=67fa7457&is=67f922d7&hm=d0b94d78051dc318beb2a32f2f6b58e4dae61d9bf55eb8134eaa979cc0041613&">
 </h1>
 <h3 align="center">
-	Skillink - The skill sharing app
+	SkillLink - The skill sharing app
 </h3>
 
 <p align="center">
@@ -15,17 +15,15 @@
 
 ## Overview
 
-**Perfect to start an Tinder Clone app.** 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
-
 - **Easy to use** 🤘
 - **Made with Expo** ⚡
 - **TypeScript supported** 🌞
 
-This project was inspired by this [amazing Kishore's work on Dribbble](https://dribbble.com/shots/5631075-Dating-App-Sketch-Freebie-Day-334-365-Project365). Feel free to follow this guy because he does great stuff.
+This project was inspired by this [amazing Steven Persia's work on Github]([https://github.com/stevenpersia/tinder-react-native/blob/master/README.md])). Feel free to follow this guy because he does great stuff.
 
 ## Demo
 
-You can try it here : https://expo.io/@stevenpersia/projects/tinder-expo
+You can try it here : (under development)
 
 ## Screenshots
 
@@ -52,7 +50,6 @@ src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-4.p
 Be sure, you have installed all dependencies and applications to run Expo project on your computer : [Getting Started with Expo](https://docs.expo.io/get-started/installation/).
 
 This project works fine on iOS and Android.
-
 
 ### Running the project
 
