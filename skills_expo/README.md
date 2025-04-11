@@ -56,7 +56,7 @@ This project works fine on iOS and Android.
 Clone this repository :
 
 ```
-git clone https://github.com/stevenpersia/tinder-expo.git
+git clone https://github.com/stevenpersia/tinder-expo.git](https://github.com/DODA-2005/Skill-Share-App.git
 cd tinder-expo
 ```
 
