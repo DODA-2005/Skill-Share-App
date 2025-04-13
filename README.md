@@ -1,11 +1,11 @@
 <h1 align="center">
 <img
-		width="250"
-		alt="Tinder Clone - Expo"
-		src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/tinder-clone-logo.gif">
+		width="900"
+		alt="Skill Share - Expo"
+		src="https://cdn.discordapp.com/attachments/897084050941038655/1360255701766901840/Screenshot_2025-04-11_at_7.39.48_PM.png?ex=67fa7457&is=67f922d7&hm=d0b94d78051dc318beb2a32f2f6b58e4dae61d9bf55eb8134eaa979cc0041613&">
 </h1>
 <h3 align="center">
-	Tinder Clone - Expo
+	SkillLink - The skill sharing app
 </h3>
 
 <p align="center">
@@ -15,26 +15,22 @@
 
 ## Overview
 
-⚠️ **This project use code of my previous repository [Tinder - React Native](https://github.com/stevenpersia/tinder-react-native). Because I don't have time to maintain this previous project made on React Native, I've decided to switch to Expo because it's more convenient to me. Sorry if you don't work with Expo (but give it a try).**
-
-**Perfect to start an Tinder Clone app.** 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
-
 - **Easy to use** 🤘
 - **Made with Expo** ⚡
 - **TypeScript supported** 🌞
 
-This project was inspired by this [amazing Kishore's work on Dribbble](https://dribbble.com/shots/5631075-Dating-App-Sketch-Freebie-Day-334-365-Project365). Feel free to follow this guy because he does great stuff.
+This project was inspired by this [amazing Steven Persia's work on Github]([https://github.com/stevenpersia/tinder-react-native/blob/master/README.md])). Feel free to follow this guy because he does great stuff.
 
 ## Demo
 
-You can try it here : https://expo.io/@stevenpersia/projects/tinder-expo
+You can try it here : (under development)
 
 ## Screenshots
 
 <img
 width="205"
 alt="Capture 1"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-1.png">
+src="https://github.com/stevenpersia//blob/master/preview/capture-1.png">
 <img
 width="205"
 alt="Capture 2"
@@ -55,13 +51,12 @@ Be sure, you have installed all dependencies and applications to run Expo projec
 
 This project works fine on iOS and Android.
 
-
 ### Running the project
 
 Clone this repository :
 
 ```
-git clone https://github.com/stevenpersia/tinder-expo.git
+git clone https://github.com/DODA-2005/Skill-Share-App.git
 cd tinder-expo
 ```
 
@@ -109,9 +104,7 @@ yarn start
 | `matches`  | string | Yes      | Match percentage.           | `matches="95"`                             |
 | `age`      | string | No       | Age of member.              | `age="25"`                                 |
 | `location` | string | No       | Location of member.         | `location="Paris, France"`                 |
-| `info1`    | string | No       | More information of member. | `info1="Straight, Single"`                 |
 | `info2`    | string | No       | More information of member. | `info2="Tea Totaller & Loves Photography"` |
-| `info3`    | string | No       | More information of member. | `info3="Beaches, Mountain & Coffee"`       |
 | `info4`    | string | No       | More information of member. | `info4="Last seen: 23h ago"`               |
 
 
