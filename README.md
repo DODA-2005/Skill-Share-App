@@ -1,4 +1,4 @@
-# Skill-Share-App
+# SkillLink App
 Skill Share App made by Group - 8
 
 <h1 align="center">
