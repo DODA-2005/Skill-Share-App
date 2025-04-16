@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { View, ImageBackground } from "react-native";
-import CardStack, { Card } from "react-native-card-stack-swiper";
+import CardStack from "react-native-card-stack-swiper";
 import { City, Filters, CardItem } from "../components";
 import styles from "../assets/styles";
 import DEMO from "../assets/data/demo";
 
 const Home = () => {
-  const [swiper, setSwiper] = useState<CardStack | null>(null);
+  const [swiper, setSwiper] = useState<any>(null); // TS workaround
 
   return (
     <ImageBackground
@@ -19,22 +19,24 @@ const Home = () => {
           <Filters />
         </View>
 
+        {/* @ts-ignore to bypass dumb children typing error */}
+        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+        {/* @ts-ignore */}
         <CardStack
           loop
           verticalSwipe={false}
           renderNoMoreCards={() => null}
-          ref={(newSwiper): void => setSwiper(newSwiper)}
+          ref={(newSwiper) => setSwiper(newSwiper)}
         >
-          {DEMO.map((item) => (
-            <Card key={item.id}>
-              <CardItem
-                hasActions
-                image={item.image}
-                name={item.name}
-                description={item.description}
-                matches={item.match}
-              />
-            </Card>
+          {DEMO.map((item, index) => (
+            <CardItem
+              key={index}
+              hasActions
+              image={item.image}
+              name={item.name}
+              description={item.description}
+              matches={item.match}
+            />
           ))}
         </CardStack>
       </View>
