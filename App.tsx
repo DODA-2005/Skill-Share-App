@@ -1,12 +1,17 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
+import { createStackNavigator, StackScreenProps } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Matches, Messages, Profile } from "./skills_expo/screens";
+import { Home, Matches, Messages, Profile, ChatScreen } from "./skills_expo/screens";
 import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./skills_expo/assets/styles";
 import TabBarIcon from "./skills_expo/components/TabBarIcon";
 
-const Stack = createStackNavigator();
+type RootStackParamList = {
+  Main: undefined;
+  ChatScreen: { user: { name: string } };
+};
+
+const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => (
@@ -72,8 +77,20 @@ const TabNavigator = () => (
 
 const App = () => (
   <NavigationContainer>
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Main" component={TabNavigator} />
+    <Stack.Navigator>
+      <Stack.Screen
+        name="Main"
+        component={TabNavigator}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="ChatScreen"
+        component={ChatScreen}
+        options={({ route }) => ({
+          title: route.params.user.name,
+          headerBackTitleVisible: false,
+        })}
+      />
     </Stack.Navigator>
   </NavigationContainer>
 );
