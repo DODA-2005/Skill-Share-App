@@ -19,7 +19,7 @@ const Profile = () => {
     info3,
     info4,
     location,
-    match,
+    //matches,
     name,
   } = DEMO[7];
 
@@ -52,7 +52,7 @@ const Profile = () => {
         </ImageBackground>
 
         <ProfileItem
-          matches={match}
+          //matches={matches}
           name={name}
           age={age}
           location={location}

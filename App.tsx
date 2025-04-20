@@ -45,7 +45,7 @@ const TabNavigator = () => (
       component={Matches}
       options={{
         tabBarIcon: ({ focused }) => (
-          <TabBarIcon focused={focused} iconName="heart" text="Matches" />
+          <TabBarIcon focused={focused} iconName="school" text="Matches" />
         ),
       }}
     />

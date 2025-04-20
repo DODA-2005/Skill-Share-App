@@ -49,7 +49,7 @@ const CardItem = ({
       {matches && (
         <View style={styles.matchesCardItem}>
           <Text style={styles.matchesTextCardItem}>
-            <Icon name="heart" color={WHITE} size={13} /> {matches}% Match!
+            <Icon name="school" color={WHITE} size={13} /> {matches}% Match!
           </Text>
         </View>
       )}
@@ -80,7 +80,7 @@ const CardItem = ({
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.button}>
-            <Icon name="heart" color={LIKE_ACTIONS} size={25} />
+            <Icon name="rocket" color={LIKE_ACTIONS} size={25} />
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.button}>
