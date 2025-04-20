@@ -1,17 +1,15 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator, StackScreenProps } from "@react-navigation/stack";
+import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Matches, Messages, Profile, ChatScreen } from "./skills_expo/screens";
+import type { RootStackParamList } from "./RouteParamList"; //
+import { Home, Matches, Messages, Profile, ChatScreen, MatchedProfile } from "./skills_expo/screens";
 import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./skills_expo/assets/styles";
 import TabBarIcon from "./skills_expo/components/TabBarIcon";
+console.log("MatchedProfile component:", MatchedProfile);
 
-type RootStackParamList = {
-  Main: undefined;
-  ChatScreen: { user: { name: string } };
-};
 
-const Stack = createStackNavigator<RootStackParamList>();
+const Stack = createStackNavigator<RootStackParamList>(); 
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => (
@@ -86,6 +84,14 @@ const App = () => (
       <Stack.Screen
         name="ChatScreen"
         component={ChatScreen}
+        options={({ route }) => ({
+          title: route.params.user.name,
+          headerBackTitleVisible: false,
+        })}
+      />
+      <Stack.Screen
+        name="MatchedProfile"
+        component={MatchedProfile}
         options={({ route }) => ({
           title: route.params.user.name,
           headerBackTitleVisible: false,

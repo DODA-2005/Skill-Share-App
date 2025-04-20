@@ -1,4 +1,5 @@
 import React from "react";
+import { useRoute, useNavigation } from "@react-navigation/native";
 import {
   ScrollView,
   View,
@@ -11,6 +12,8 @@ import DEMO from "../assets/data/demo";
 import styles, { WHITE } from "../assets/styles";
 
 const Profile = () => {
+  const navigation = useNavigation();
+
   const {
     age,
     image,
@@ -67,7 +70,10 @@ const Profile = () => {
             <Icon name="ellipsis-horizontal" size={20} color={WHITE} />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.roundedButton}>
+          <TouchableOpacity
+            style={styles.roundedButton}
+            onPress={() => navigation.navigate("Chat")}
+          >
             <Icon name="chatbubble" size={20} color={WHITE} />
             <Text style={styles.textButton}>Start chatting</Text>
           </TouchableOpacity>
