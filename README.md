@@ -1,5 +1,5 @@
 # SkillLink App
-Skill Share App made by Group - 8
+Skill Share App made by Group - 9
 
 <h1 align="center">
 <img
