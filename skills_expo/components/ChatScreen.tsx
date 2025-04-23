@@ -34,9 +34,10 @@ const ChatScreen = () => {
 
   return (
     <KeyboardAvoidingView
-      behavior={Platform.OS === "ios" ? "padding" : undefined}
-      style={styles.container}
-    >
+  style={{ flex: 1 }}
+  behavior={Platform.OS === "ios" ? "padding" : "height"}
+  keyboardVerticalOffset={80} // <- tweak this if your chat bar is still hidden
+>
       
 
       <FlatList
@@ -78,7 +79,9 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderColor: "#ddd",
     paddingVertical: 8,
+    marginBottom: 10, // 👈 Lifts the chat bar up a bit from the bottom
   },
+  
   input: {
     flex: 1,
     borderWidth: 1,
@@ -87,6 +90,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     paddingVertical: 8,
     marginRight: 10,
+    color: "#000", // <== Make text visible!
   },
   you: {
     alignSelf: "flex-end",

@@ -1,15 +1,15 @@
+// 1. App.tsx
+
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import type { RootStackParamList } from "./RouteParamList"; //
+import type { RootStackParamList } from "./RouteParamList";
 import { Home, Matches, Messages, Profile, ChatScreen, MatchedProfile } from "./skills_expo/screens";
 import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./skills_expo/assets/styles";
 import TabBarIcon from "./skills_expo/components/TabBarIcon";
-console.log("MatchedProfile component:", MatchedProfile);
 
-
-const Stack = createStackNavigator<RootStackParamList>(); 
+const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => (

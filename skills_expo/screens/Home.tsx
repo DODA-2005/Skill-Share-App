@@ -8,6 +8,24 @@ import DEMO from "../assets/data/demo";
 const Home = () => {
   const [swiper, setSwiper] = useState<any>(null); // TS workaround
 
+  // These are your action functions
+  const handleSwipeLeft = () => {
+    if (swiper) swiper.swipeLeft();
+  };
+
+  const handleSwipeRight = () => {
+    if (swiper) swiper.swipeRight();
+  };
+
+  const handleSuperLike = () => {
+    // You can replace this with your actual superlike animation
+    alert("Super Liked!");
+  };
+
+  const handleRewind = () => {
+    if (swiper) swiper.goBackFromLeft(); // or goBackFromRight() if you prefer
+  };
+
   return (
     <ImageBackground
       source={require("../assets/images/bg.png")}
@@ -20,8 +38,6 @@ const Home = () => {
         </View>
 
         {/* @ts-ignore to bypass dumb children typing error */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
         <CardStack
           loop
           verticalSwipe={false}
@@ -36,6 +52,11 @@ const Home = () => {
               name={item.name}
               description={item.description}
               matches={item.matches}
+              isOnline={item.isOnline}
+              onSwipeLeft={handleSwipeLeft}
+              onSwipeRight={handleSwipeRight}
+              onSuperLike={handleSuperLike}
+              onRewind={handleRewind}
             />
           ))}
         </CardStack>
