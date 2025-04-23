@@ -1,11 +1,8 @@
-# SkillLink App
-Skill Share App made by Group - 8
-
 <h1 align="center">
 <img
 		width="900"
 		alt="Skill Share - Expo"
-		src="https://cdn.discordapp.com/attachments/897084050941038655/1360255701766901840/Screenshot_2025-04-11_at_7.39.48_PM.png?ex=67fa7457&is=67f922d7&hm=d0b94d78051dc318beb2a32f2f6b58e4dae61d9bf55eb8134eaa979cc0041613&">
+		src="assets/skillLink.png">
 </h1>
 <h3 align="center">
 	SkillLink - The skill sharing app
