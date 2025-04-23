@@ -2,7 +2,7 @@
 <img
 		width="900"
 		alt="Skill Share - Expo"
-		src="[skill-link/assets/skillLink.png](https://github.com/DODA-2005/Skill-Share-App/blob/restart-fix/skills_expo/assets/SkillLink.png)">
+		src="https://github.com/DODA-2005/Skill-Share-App/blob/restart-fix/skills_expo/assets/SkillLink.png">
 </h1>
 <h3 align="center">
 	SkillLink - The skill sharing app
