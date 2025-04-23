@@ -8,6 +8,7 @@ import type { RootStackParamList } from "./RouteParamList";
 import { Home, Matches, Messages, Profile, ChatScreen, MatchedProfile } from "./skills_expo/screens";
 import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./skills_expo/assets/styles";
 import TabBarIcon from "./skills_expo/components/TabBarIcon";
+import { LoadingScreen } from "./skills_expo/screens";
 
 const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator();
@@ -75,7 +76,12 @@ const TabNavigator = () => (
 
 const App = () => (
   <NavigationContainer>
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="Loading">
+      <Stack.Screen
+        name="Loading"
+        component={LoadingScreen}
+        options={{ headerShown: false }}
+      />
       <Stack.Screen
         name="Main"
         component={TabNavigator}
