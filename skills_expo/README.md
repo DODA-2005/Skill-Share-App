@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-	<img src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/all.gif" width="300">
+	<img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/all.gif" width="300">
 </p>
 
 
@@ -30,19 +30,19 @@ You can try it here : (under development)
 <img
 width="205"
 alt="Capture 1"
-src="https://github.com/stevenpersia//blob/master/preview/explore.gif">
+src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/explore.gif">
 <img
 width="205"
 alt="Capture 2"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/matches.gif">
+src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/matches.gif">
 <img
 width="205"
 alt="Capture 3"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/messages.gif">
+src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/messages.gif">
 <img
 width="205"
 alt="Capture 4"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/profile.jpeg">
+src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/profile.jpeg">
 
 
 ## Installation and usage
