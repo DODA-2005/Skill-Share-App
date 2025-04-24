@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-	<img src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/tinderclone-preview.gif" width="300">
+	<img src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/all.gif" width="300">
 </p>
 
 
@@ -30,19 +30,19 @@ You can try it here : (under development)
 <img
 width="205"
 alt="Capture 1"
-src="https://github.com/stevenpersia//blob/master/preview/capture-1.png">
+src="https://github.com/stevenpersia//blob/master/preview/explore.gif">
 <img
 width="205"
 alt="Capture 2"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-2.png">
+src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/matches.gif">
 <img
 width="205"
 alt="Capture 3"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-3.png">
+src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/messages.gif">
 <img
 width="205"
 alt="Capture 4"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-4.png">
+src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/profile.jpeg">
 
 
 ## Installation and usage
