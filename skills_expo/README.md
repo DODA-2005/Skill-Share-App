@@ -55,6 +55,9 @@ You can try it here : (under development)
       <br /><b>👤 Profile</b>
     </td>
   </tr>
+<p align="center">
+  <b> All the app previews are tested on Expo Go prototype simulation on Iphone 16 </b>
+</p>
 </table>
 
 
