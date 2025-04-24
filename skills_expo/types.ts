@@ -28,7 +28,7 @@ export type ProfileItemT = {
   info3?: string;
   info4?: string;
   location?: string;
-  matches: string;
+  matches?: string;
   name: string;
 };
 

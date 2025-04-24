@@ -15,18 +15,26 @@ const CardItem = ({
   hasActions,
   hasVariant,
   image,
-  isOnline,
-  matches,
   name,
-}: CardItemT) => {
-  // Custom styling
+  matches,
+  isOnline,
+  onSwipeLeft,
+  onSwipeRight,
+  onSuperLike,
+  onRewind,
+}: CardItemT & {
+  onSwipeLeft?: () => void;
+  onSwipeRight?: () => void;
+  onSuperLike?: () => void;
+  onRewind?: () => void;
+}) => {
   const fullWidth = Dimensions.get("window").width;
 
   const imageStyle = [
     {
       borderRadius: 8,
       width: hasVariant ? fullWidth / 2 - 30 : fullWidth - 80,
-      height: hasVariant ? 170 : 350,
+      height: hasVariant ? 170 : 315,
       margin: hasVariant ? 0 : 20,
     },
   ];
@@ -49,7 +57,7 @@ const CardItem = ({
       {matches && (
         <View style={styles.matchesCardItem}>
           <Text style={styles.matchesTextCardItem}>
-            <Icon name="heart" color={WHITE} size={13} /> {matches}% Match!
+            <Icon name="school" color={WHITE} size={13} /> {matches}% Match!
           </Text>
         </View>
       )}
@@ -75,19 +83,19 @@ const CardItem = ({
       {/* ACTIONS */}
       {hasActions && (
         <View style={styles.actionsCardItem}>
-          <TouchableOpacity style={styles.miniButton}>
-            <Icon name="star" color={STAR_ACTIONS} size={14} />
+          <TouchableOpacity style={styles.miniButton} onPress={onRewind}>
+            <Icon name="refresh" color={STAR_ACTIONS} size={25} />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
-            <Icon name="heart" color={LIKE_ACTIONS} size={25} />
-          </TouchableOpacity>
-
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={onSwipeLeft}>
             <Icon name="close" color={DISLIKE_ACTIONS} size={25} />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.miniButton}>
+          <TouchableOpacity style={styles.button} onPress={onSwipeRight}>
+            <Icon name="rocket" color={LIKE_ACTIONS} size={25} />
+          </TouchableOpacity>
+
+          <TouchableOpacity style={styles.miniButton} onPress={onSuperLike}>
             <Icon name="flash" color={FLASH_ACTIONS} size={14} />
           </TouchableOpacity>
         </View>

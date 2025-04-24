@@ -102,6 +102,21 @@ export default StyleSheet.create({
     shadowOffset: { height: 10, width: 0 },
   },
 
+  exploreHeaderContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 15,
+    marginBottom: 10,
+  },
+  
+  exploreLogo: {
+    width: 50,
+    height: 50,
+    marginHorizontal: 10,
+  },
+  
+
   // COMPONENT - CITY
   city: {
     backgroundColor: WHITE,

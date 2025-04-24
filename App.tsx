@@ -1,12 +1,16 @@
+// 1. App.tsx
+
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Matches, Messages, Profile } from "./skills_expo/screens";
+import type { RootStackParamList } from "./RouteParamList";
+import { Home, Matches, Messages, Profile, ChatScreen, MatchedProfile } from "./skills_expo/screens";
 import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./skills_expo/assets/styles";
 import TabBarIcon from "./skills_expo/components/TabBarIcon";
+import { LoadingScreen } from "./skills_expo/screens";
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => (
@@ -45,7 +49,7 @@ const TabNavigator = () => (
       component={Matches}
       options={{
         tabBarIcon: ({ focused }) => (
-          <TabBarIcon focused={focused} iconName="heart" text="Matches" />
+          <TabBarIcon focused={focused} iconName="school" text="Matches" />
         ),
       }}
     />
@@ -72,8 +76,33 @@ const TabNavigator = () => (
 
 const App = () => (
   <NavigationContainer>
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Main" component={TabNavigator} />
+    <Stack.Navigator initialRouteName="Loading">
+      <Stack.Screen
+        name="Loading"
+        component={LoadingScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Main"
+        component={TabNavigator}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="ChatScreen"
+        component={ChatScreen}
+        options={({ route }) => ({
+          title: route.params.user.name,
+          headerBackTitleVisible: false,
+        })}
+      />
+      <Stack.Screen
+        name="MatchedProfile"
+        component={MatchedProfile}
+        options={({ route }) => ({
+          title: route.params.user.name,
+          headerBackTitleVisible: false,
+        })}
+      />
     </Stack.Navigator>
   </NavigationContainer>
 );
