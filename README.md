@@ -1,6 +1,3 @@
-# SkillLink App
-Skill Share App made by Group - 9
-
 <h1 align="center">
 <img
 		width="900"
@@ -11,9 +8,6 @@ Skill Share App made by Group - 9
 	SkillLink - The skill sharing app
 </h3>
 
-<p align="center">
-	<img src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/tinderclone-preview.gif" width="300">
-</p>
 
 
 ## Overview
@@ -28,24 +22,43 @@ This project was inspired by this [amazing Steven Persia's work on Github]([http
 
 You can try it here : (under development)
 
-## Screenshots
+## 🧪 Preview
 
-<img
-width="205"
-alt="Capture 1"
-src="https://github.com/stevenpersia//blob/master/preview/capture-1.png">
-<img
-width="205"
-alt="Capture 2"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-2.png">
-<img
-width="205"
-alt="Capture 3"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-3.png">
-<img
-width="205"
-alt="Capture 4"
-src="https://github.com/stevenpersia/tinder-expo/blob/master/preview/capture-4.png">
+<p align="center">
+  <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/all.gif" width="300" alt="App Flow Preview" />
+</p>
+
+<p align="center">
+  <b>🌀 Full app walkthrough – Match. Chat. SkillShare.</b>
+</p>
+
+---
+
+## 📸 Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/explore.gif" width="205" alt="Explore Tab" />
+      <br /><b>🔍 Explore</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/matches.gif" width="205" alt="Matches Tab" />
+      <br /><b>📚 Matches</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/messages.gif" width="205" alt="Messages Tab" />
+      <br /><b>💬 Messages</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/profile.jpeg" width="205" alt="Profile Tab" />
+      <br /><b>👤 Profile</b>
+    </td>
+  </tr>
+<p align="center">
+  <b> All the app previews are tested on Expo Go prototype simulation on Iphone 16 </b>
+</p>
+</table>
 
 
 ## Installation and usage
