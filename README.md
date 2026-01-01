@@ -29,7 +29,7 @@ You can try it here : (under development)
 </p>
 
 <p align="center">
-  <b>🌀 Full app walkthrough – Match. Chat. SkillShare.</b>
+  <b> Full app walkthrough – Match. Chat. SkillShare.</b>
 </p>
 
 ---
