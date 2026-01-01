@@ -12,9 +12,9 @@
 
 ## Overview
 
-- **Easy to use** 🤘
-- **Made with Expo** ⚡
-- **TypeScript supported** 🌞
+- **Easy to use** 
+- **Made with Expo** 
+- **TypeScript supported** 
 
 This project was inspired by this [amazing Steven Persia's work on Github]([https://github.com/stevenpersia/tinder-react-native/blob/master/README.md])). Feel free to follow this guy because he does great stuff.
 
