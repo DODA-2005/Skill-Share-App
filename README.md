@@ -22,7 +22,7 @@ This project was inspired by this [amazing Steven Persia's work on Github]([http
 
 You can try it here : (under development)
 
-## 🧪 Preview
+## Preview
 
 <p align="center">
   <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/all.gif" width="300" alt="App Flow Preview" />
@@ -34,25 +34,25 @@ You can try it here : (under development)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <table align="center">
   <tr>
     <td align="center">
       <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/explore.gif" width="205" alt="Explore Tab" />
-      <br /><b>🔍 Explore</b>
+      <br /><b> Explore</b>
     </td>
     <td align="center">
       <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/matches.gif" width="205" alt="Matches Tab" />
-      <br /><b>📚 Matches</b>
+      <br /><b> Matches</b>
     </td>
     <td align="center">
       <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/messages.gif" width="205" alt="Messages Tab" />
-      <br /><b>💬 Messages</b>
+      <br /><b> Messages</b>
     </td>
     <td align="center">
       <img src="https://github.com/DODA-2005/Skill-Share-App/blob/main/skills_expo/preview/profile.jpeg" width="205" alt="Profile Tab" />
-      <br /><b>👤 Profile</b>
+      <br /><b> Profile</b>
     </td>
   </tr>
 <p align="center">
